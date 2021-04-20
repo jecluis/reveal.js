@@ -745,7 +745,7 @@
 			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' );
 
 		// Slide number
-		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
+		dom.slideNumber = createSingletonNode( dom.slides, 'div', 'slide-number', '' );
 
 		// Element containing notes that are visible to the audience
 		dom.speakerNotes = createSingletonNode( dom.wrapper, 'div', 'speaker-notes', null );
